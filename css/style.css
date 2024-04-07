@@ -50,8 +50,10 @@ header nav .options-menu li{
     background: radial-gradient(ellipse farthest-corner at center center, #FB9AD1 20%, #86469C 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
 
-
+header nav .options-menu li:hover{
+    cursor: pointer;
 }
 
 header nav .name-section{
@@ -75,6 +77,54 @@ header nav .name-section .module{
     align-items: center;
     color: #ffcdea;
     gap: 3px;
+}
+
+/* Menu verbs */
+
+.menu-verbs{
+    width: 150px;
+    position: absolute;
+    top: 12vh;
+    right: 24%;
+    display: none;
+}
+
+.menu-verbs .list-verbs{
+    list-style: none;
+    height: auto;
+    background-color: #202020;
+    border-radius: 5px;
+}
+
+.menu-verbs .list-verbs .item-verb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    /* outline: 1px solid white; */
+}
+
+.show-div{
+    display: block;
+}
+
+.sub-menu{
+    
+    margin-left: 20px;
+    /* border: 1px solid red; */
+    width: 100%;
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.sub-item{
+    font-size: 0.9rem;
+    padding: 2px 10px;
 }
 
 
